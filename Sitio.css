@@ -1,0 +1,70 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+/*Diseño de pagina*/ 
+body {background-color: #C0C0C0}
+#wrap {width: 1000px; height: auto; background-color: #FFFFFF; margin:0 auto}        
+
+
+#boxa {width: 1000px; height:400px; background: url("boxa.gif"); overflow: hidden }
+#boxb {width: 1000px; height:300px; background-color: #FFFFFF}
+#boxc {width: 1000px; height:360px; background: url("box c.gif"); overflow: hidden }
+#boxd {width: 1000px; height:600px; background: url("box-d.gif"); overflow: hidden }
+
+#caja {width: 300px; height: 300px; background-color: #FFFFFF; margin: 50px 50px}
+#caji {width: 200px; height: 200px; background-color: #FFFFFF; margin: 40px 20px 20px 40px ;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; overflow: hidden }
+#cajab {width:300px; height: 250px; background-color: #B07B7C; float: left; margin: 25px 0px 25px 175px ; background: url("taza.gif")}
+#cajac {width: 200px; height: 250px; background-color: #FFFFFF; float: left; margin: 25px 0px 25px 0px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+#blanca  {width: 950px; height:310px; background-color: #FFFFFF; opacity: 0.7 ; overflow: hidden ; margin: 25px 25px 25px 25px }
+#blancat  {width: 800px; height:250px;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; overflow: hidden ; margin: 75px 100px 25px 100px }
+#boton {width: 160px; height: 40px; background-color: #303030; margin: 0px 20px 60px 60px ;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; overflow: hidden; color: #FFFFFF}
+#textb {width: 160px; height: 40px;; margin: 10px 20px 60px 0px ;font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; overflow: hidden; color: #FFFFFF}
+#vid1 {width:  280px; height: 350px; background-color:  #FFFFFF; margin: 20px 0px 0px 100px; overflow: hidden; float: left}
+#vid2 {width:  280px; height: 350px; background-color: #FFFFFF; margin: 20px 0px 0px 230px; float: left; overflow: hidden}
